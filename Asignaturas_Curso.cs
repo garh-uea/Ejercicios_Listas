@@ -21,14 +21,14 @@ public class Curso
     public void Mostrarmaterias()
     {
         Console.WriteLine($"Materias del Curso: {NombreCurso}");
-        Console.WriteLine("===============================");
+        Console.WriteLine("============================================================");
 
         for (int i = 0; i < materias.Count; i++)
         {
             Console.WriteLine($"#{i + 1}: {materias[i]}");
         }
 
-        Console.WriteLine("===============================");
+        Console.WriteLine("============================================================");
     }
 }
 
